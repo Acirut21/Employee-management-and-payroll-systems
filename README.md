@@ -34,9 +34,9 @@ The system should follow the Single Responsibility Principle (SRP) to separate c
 ### 4. Program Workflow
 1. **Employee Onboarding**: The system allows adding new employees, specifying their type (full-time, part-time, contract), and capturing essential details.
 2. **Employee Categorization**: Based on the type, the employee is assigned a specific salary calculation method.
-Data Input: Work hours, bonuses, and deductions are added to the system.
-3. **Payroll Processing**: The payroll module calculates the employee’s salary, including taxes, bonuses, and deductions, for each pay period.
-4. **Report Generation**: At the end of each pay period, the system generates payroll and compliance reports for internal review and external auditing.
+3. **Data Input**: Work hours, bonuses, and deductions are added to the system.
+4. **Payroll Processing**: The payroll module calculates the employee’s salary, including taxes, bonuses, and deductions, for each pay period.
+5. **Report Generation**: At the end of each pay period, the system generates payroll and compliance reports for internal review and external auditing.
 
 ### 5. Ease of Extension
 The system should be designed in a way that adding new employee types or modifying salary rules is straightforward without significant changes to the overall structure. Following the Open-Closed Principle, the system can be extended to include new employee categories (e.g., freelance workers) or changes in tax regulations without altering existing functionality. Modular design makes the system more adaptable to future requirements, such as integrating with external HR or accounting systems.
